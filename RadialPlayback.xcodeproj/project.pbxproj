@@ -14,6 +14,7 @@
 		C63F5B461AA8C72F001AB34A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C63F5B451AA8C72F001AB34A /* Images.xcassets */; };
 		C63F5B491AA8C72F001AB34A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C63F5B471AA8C72F001AB34A /* LaunchScreen.xib */; };
 		C63F5B551AA8C72F001AB34A /* RadialPlaybackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C63F5B541AA8C72F001AB34A /* RadialPlaybackTests.m */; };
+		C63F5B641AA8D81C001AB34A /* MiniPlaybackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C63F5B631AA8D81C001AB34A /* MiniPlaybackButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C63F5B4E1AA8C72F001AB34A /* RadialPlaybackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadialPlaybackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C63F5B531AA8C72F001AB34A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C63F5B541AA8C72F001AB34A /* RadialPlaybackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadialPlaybackTests.m; sourceTree = "<group>"; };
+		C63F5B621AA8D81C001AB34A /* MiniPlaybackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiniPlaybackButton.h; sourceTree = "<group>"; };
+		C63F5B631AA8D81C001AB34A /* MiniPlaybackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiniPlaybackButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				C63F5B3F1AA8C72F001AB34A /* ViewController.h */,
 				C63F5B401AA8C72F001AB34A /* ViewController.m */,
 				C63F5B421AA8C72F001AB34A /* Main.storyboard */,
+				C63F5B621AA8D81C001AB34A /* MiniPlaybackButton.h */,
+				C63F5B631AA8D81C001AB34A /* MiniPlaybackButton.m */,
 				C63F5B451AA8C72F001AB34A /* Images.xcassets */,
 				C63F5B471AA8C72F001AB34A /* LaunchScreen.xib */,
 				C63F5B381AA8C72F001AB34A /* Supporting Files */,
@@ -221,6 +226,7 @@
 			files = (
 				C63F5B411AA8C72F001AB34A /* ViewController.m in Sources */,
 				C63F5B3E1AA8C72F001AB34A /* AppDelegate.m in Sources */,
+				C63F5B641AA8D81C001AB34A /* MiniPlaybackButton.m in Sources */,
 				C63F5B3B1AA8C72F001AB34A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
